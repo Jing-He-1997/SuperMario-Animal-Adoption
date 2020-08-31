@@ -1,0 +1,71 @@
+﻿body {
+    background: url("../images/bg.jpg") no-repeat;;
+    background-size: cover;
+    text-align: center;
+    color: rgb(255, 136, 112);
+}
+
+.container {
+    position: relative;
+    width: 350px;
+    height: auto;
+    margin: 120px auto 0 auto;
+}
+
+.category {
+    margin: 100px 0;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form {
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+
+    height: 300px;
+    padding: 20px;
+}
+
+input {
+    width: 270px;
+    height: 42px;
+    margin-top: 15px;
+    padding: 0 15px;
+    background: rgba(134, 129, 130, 0.35);
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, .15);
+    -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .15) inset;
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+}
+
+input:-moz-placeholder {
+    color: #fff;
+}
+
+input:-ms-input-placeholder {
+    color: #fff;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+    -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1) inset,
+    0 2px 7px 0 rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1) inset,
+    0 2px 7px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1) inset,
+    0 2px 7px 0 rgba(0, 0, 0, .2);
+}
+

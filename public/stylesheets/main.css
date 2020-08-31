@@ -1,0 +1,129 @@
+body {
+    background: url("../images/bg.jpg") no-repeat;;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    color: rgb(255, 136, 112);
+    padding-bottom: 20px;
+}
+
+#addNewAnimal, #logout {
+    float: right;
+    margin: 20px 0 0 10px;
+
+}
+
+.applyInfo {
+    color: black;
+    margin-top: 10px;
+}
+
+#dlInfo {
+    margin-top: 20px;
+}
+
+#divApply {
+    margin-top: 20px;
+}
+
+
+#inputComment {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+a {
+    color: yellow;
+}
+
+p {
+    color: #ffffff;
+}
+
+.container {
+    position: relative;
+    height: auto;
+    margin: 100px auto 0 auto;
+}
+
+.dl-horizontal {
+    font-size: 17px;
+}
+
+.search-input {
+    width: 270px;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    background: rgba(255, 255, 255, 0.35);
+    border: 1px solid rgba(255, 255, 255, .15);
+}
+
+.search-input:-moz-placeholder {
+    color: #fff;
+}
+
+.search-input:-ms-input-placeholder {
+    color: #fff;
+}
+
+.search-input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.search-input:focus {
+    outline: none;
+    -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1) inset,
+    0 2px 7px 0 rgba(0, 0, 0, .2);
+    -webkit-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1) inset,
+    0 2px 7px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1) inset,
+    0 2px 7px 0 rgba(0, 0, 0, .2);
+}
+
+.bold {
+    font-weight: bold
+}
+
+.watch-animal {
+    margin-bottom: 0;
+    margin: auto;
+    width: 80%;
+}
+
+.watch-animal a {
+    display: block
+}
+
+.content {
+    width: 1300px;
+    margin: auto
+}
+
+.main-title {
+    color: #eea236;
+    margin-top: 10%
+}
+
+.mar-bom {
+    margin-bottom: 20%
+}
+
+.admin-row-child {
+    margin: auto;
+    margin-top: 10%
+}
+
+.thumbnail {
+    background: rgba(255, 255, 255, 0.4);
+    margin-top: 10px;
+    -moz-border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, .15);
+    -moz-box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .15) inset;
+    -o-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+}

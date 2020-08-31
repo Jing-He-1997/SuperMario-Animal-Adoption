@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title><%= title %></title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="../../stylesheets/main.css" rel="stylesheet" media="screen">
+</head>
+<body>
+<div class="container mar-bom">
+    <h1 class="text-center bold" onclick="window.location.href='/back'">SuperMario Animal Adoption</h1>
+    <h2 class="text-center bold"><%= title %></h2>
+
+    <form id="applyAnimal" onsubmit="apply(`<%= id %>`)">
+        <div class="row">
+            <div class="col-4 col-xs-offset-4 col-sm-offset-5 col-lg-offset-5">
+                <label for="firstname">First Name:</label>
+                <input type="text" class="applyInfo" name="firstname" id="firstname" placeholder="First Name"><br>
+                <label for="lastname">Last Name:</label>
+                <input type="text" class="applyInfo" name="lastname" id="lastname" placeholder="Last Name"><br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" class="applyInfo" name="dob" id="dob"><br>
+                <label for="email">Email:</label>
+                <input type="email" class="applyInfo" name="email" id="email">
+            </div>
+        </div>
+        <div id="divApply" class="row">
+            <div class="col-xs-offset-8 col-2 col-sm-offset-7 col-lg-offset-7">
+                <input class="btn btn-primary" type="submit" value="Submit">
+            </div>
+        </div>
+    </form>
+</div>
+
+
+<div id="results"></div>
+<script src="../../javascripts/apply_view.js"></script>
+<% include footer.ejs %>

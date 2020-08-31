@@ -1,0 +1,91 @@
+<% include header.ejs %>
+
+<div class="container mar-bom">
+    <h1 class="text-center bold" onclick="window.location.href='/back'">SuperMario Animal Adoption</h1>
+    <div class="row">
+        <div class="col-sm-12 col-md-10 col-lg-6">
+            <!-- Search input-->
+            <div class="search" id="search">
+                <form onsubmit="searchSubmit()">
+                    <input class="search-input" id="search-input" name="search" type="search" value="<%= keyword %>"
+                           placeholder="Animal Name" required="true">
+                    <input class="btn btn-default" id="search-submit" type="submit" value="Search">
+                    <!-- Home Button-->
+                    <input class="btn btn-default" id="home" type="button" value="Home"
+                           onclick="window.location.href='/back'">
+                </form>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-2 col-lg-6">
+            <% if (role == 'Admin'){ %>
+                <button type="button" id="addNewAnimal" class="btn btn-info" onclick="window.location.href='/add'">Add
+                    New
+                    Animal
+                </button>
+            <% } %>
+            <button type="button" id="logout" class="btn btn-warning" onclick="window.location.href='/logout'">Logout
+            </button>
+        </div>
+    </div>
+
+
+    <!--Search Result Tips-->
+    <% if (page == 'search'){ %>
+        <% if (total == '0' || total == '1'){ %>
+            <h2><span><%= total %></span> result related to <span>"<%= keyword %> "</span></h2>
+        <% }else{ %>
+            <h2><span><%= total %></span> results related to <span>"<%= keyword %> "</span></h2>
+        <% } %>
+    <% } %>
+
+    <!-- Color Tag field-->
+    <div class="category" id="category">
+        <% if (colors) { %>
+            <label for="color">Color Tag:</label>
+        <% } %>
+        <% for (var i in colors){ %>
+            <a name="color" id="color_<%= i %>" type="text" value="<% colors[i].color.toString() %>"
+               onclick="colorSubmit(this)"><%= colors[i].color %></a> /
+        <% } %>
+    </div>
+
+    <!-- Location Tag field-->
+    <div class="category" id="category">
+        <% if (locations) { %>
+            <label for="location">Location Tag:</label>
+        <% } %>
+        <% for (var i in locations){ %>
+            <a name="location" id="location_<%= i %>" type="text" value="<% locations[i].location.toString() %>"
+               onclick="locationSubmit(this)"><%= locations[i].location %></a> /
+        <% } %>
+    </div>
+
+    <!--Display Results-->
+    <div class="row">
+        <% for(var i in animals){ %>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-2">
+                <div class="thumbnail">
+                    <a href="/animal/<%= animals[i]._id %>">
+                        <img src="<%= animals[i].image %>" ,class="img-rounded" alt="<%= animals[i].name %>"/>
+                    </a>
+                    <div class="caption">
+                        <p class="text-center bold"><%= animals[i].name %></p>
+                        <% if(animals[i].status == 0){ %>
+                            <p class="watch-animal"><a class="btn btn-success" href="/animal/<%= animals[i]._id %> "
+                                                       , role="button">Details</a></p>
+                        <% }else { %>
+                            <p class="watch-animal"><a class="btn btn-primary" href="/animal/<%= animals[i]._id %> "
+                                                       , role="button">Adopted</a></p>
+                        <% } %>
+
+                    </div>
+                </div>
+            </div>
+        <% } %>
+    </div>
+</div>
+
+<script src="javascripts/search.js"></script>
+<script src="javascripts/category_color.js"></script>
+<script src="javascripts/category_location.js"></script>
+<% include footer.ejs %>

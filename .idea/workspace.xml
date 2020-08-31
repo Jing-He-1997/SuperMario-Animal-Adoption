@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="39088557-7db5-4599-8f00-0f5ba4791d3e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cQ34zIUUckiKvRfpTNE2SqCWXX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/superMario" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\37000\IdeaProjects\superMario(logout修正&amp;註解&amp;required)\superMario(logout修正&amp;註解&amp;required)\superMario\public\images" />
+      <recent name="C:\Users\37000\IdeaProjects\superMario(logout修正&amp;註解&amp;required)\superMario(logout修正&amp;註解&amp;required)\superMario\public\stylesheets" />
+      <recent name="D:\AnimalAdoption\压缩备份\superMario\public\javascripts" />
+      <recent name="D:\AnimalAdoption\压缩备份\superMario\controllers" />
+      <recent name="D:\AnimalAdoption\压缩备份\superMario\models" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="39088557-7db5-4599-8f00-0f5ba4791d3e" name="Default Changelist" comment="" />
+      <created>1590446802623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590446802623</updated>
+      <workItem from="1590446804621" duration="14892000" />
+      <workItem from="1590475983731" duration="18061000" />
+      <workItem from="1590549970538" duration="6196000" />
+      <workItem from="1590565410988" duration="3584000" />
+      <workItem from="1590573379620" duration="11142000" />
+      <workItem from="1590620440683" duration="38256000" />
+      <workItem from="1590692093083" duration="2376000" />
+      <workItem from="1590695032055" duration="14682000" />
+      <workItem from="1590756807584" duration="875000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="823" y="191" key="FileChooserDialogImpl" timestamp="1590749402257">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="823" y="191" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590749402257" />
+    <state x="1316" y="357" key="FileChooserDialogImpl/0.40.2048.1112@0.40.2048.1112" timestamp="1590631306583" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1590756611579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590756611579" />
+    <state width="2005" height="164" key="GridCell.Tab.0.bottom/0.40.2048.1112@0.40.2048.1112" timestamp="1590660007068" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1590756611579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590756611579" />
+    <state width="2005" height="164" key="GridCell.Tab.0.center/0.40.2048.1112@0.40.2048.1112" timestamp="1590660007067" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1590756611578">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590756611578" />
+    <state width="2005" height="164" key="GridCell.Tab.0.left/0.40.2048.1112@0.40.2048.1112" timestamp="1590660007067" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1590756611579">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590756611579" />
+    <state width="2005" height="164" key="GridCell.Tab.0.right/0.40.2048.1112@0.40.2048.1112" timestamp="1590660007068" />
+    <state width="978" height="157" key="GridCell.Tab.1.bottom" timestamp="1590463283576">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="978" height="157" key="GridCell.Tab.1.bottom/0.40.2048.1112@0.40.2048.1112" timestamp="1590463283576" />
+    <state width="978" height="157" key="GridCell.Tab.1.center" timestamp="1590463283576">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="978" height="157" key="GridCell.Tab.1.center/0.40.2048.1112@0.40.2048.1112" timestamp="1590463283576" />
+    <state width="978" height="157" key="GridCell.Tab.1.left" timestamp="1590463283576">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="978" height="157" key="GridCell.Tab.1.left/0.40.2048.1112@0.40.2048.1112" timestamp="1590463283576" />
+    <state width="978" height="157" key="GridCell.Tab.1.right" timestamp="1590463283576">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="978" height="157" key="GridCell.Tab.1.right/0.40.2048.1112@0.40.2048.1112" timestamp="1590463283576" />
+    <state width="978" height="157" key="GridCell.Tab.2.bottom" timestamp="1590463283576">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="978" height="157" key="GridCell.Tab.2.bottom/0.40.2048.1112@0.40.2048.1112" timestamp="1590463283576" />
+    <state width="978" height="157" key="GridCell.Tab.2.center" timestamp="1590463283576">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="978" height="157" key="GridCell.Tab.2.center/0.40.2048.1112@0.40.2048.1112" timestamp="1590463283576" />
+    <state width="978" height="157" key="GridCell.Tab.2.left" timestamp="1590463283576">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="978" height="157" key="GridCell.Tab.2.left/0.40.2048.1112@0.40.2048.1112" timestamp="1590463283576" />
+    <state width="978" height="157" key="GridCell.Tab.2.right" timestamp="1590463283576">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="978" height="157" key="GridCell.Tab.2.right/0.40.2048.1112@0.40.2048.1112" timestamp="1590463283576" />
+    <state width="978" height="157" key="GridCell.Tab.3.bottom" timestamp="1590463283577">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="978" height="157" key="GridCell.Tab.3.bottom/0.40.2048.1112@0.40.2048.1112" timestamp="1590463283577" />
+    <state width="978" height="157" key="GridCell.Tab.3.center" timestamp="1590463283577">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="978" height="157" key="GridCell.Tab.3.center/0.40.2048.1112@0.40.2048.1112" timestamp="1590463283577" />
+    <state width="978" height="157" key="GridCell.Tab.3.left" timestamp="1590463283577">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="978" height="157" key="GridCell.Tab.3.left/0.40.2048.1112@0.40.2048.1112" timestamp="1590463283577" />
+    <state width="978" height="157" key="GridCell.Tab.3.right" timestamp="1590463283577">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state width="978" height="157" key="GridCell.Tab.3.right/0.40.2048.1112@0.40.2048.1112" timestamp="1590463283577" />
+    <state x="326" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1590756808042">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="326" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590756808042" />
+    <state x="199" y="354" width="759" height="548" key="find.popup" timestamp="1590661931198">
+      <screen x="0" y="40" width="2048" height="1112" />
+    </state>
+    <state x="199" y="354" width="759" height="548" key="find.popup/0.40.2048.1112@0.40.2048.1112" timestamp="1590661931198" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1590495446169">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1590495446169" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1590607236963">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1590607236963" />
+  </component>
+</project>

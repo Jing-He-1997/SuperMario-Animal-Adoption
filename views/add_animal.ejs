@@ -1,0 +1,65 @@
+<% include header.ejs %>
+
+<div class="container mar-bom">
+    <h1 class="text-center bold" onclick="window.location.href='/back'">SuperMario Animal Adoption</h1>
+    <h2 class="text-center">Add A New Animal</h2>
+    <div class="container">
+        <div class="row">
+            <form class="form-horizontal" id="addAnimalForm" enctype="multipart/form-data" onsubmit="addAnimal()"
+                  method="POST">
+                <div class="form-group">
+                    <label for="inputTitle" class="col-xs-3 col-sm-3 control-label">Animal Name</label>
+                    <div class="col-xs-6 col-sm-6">
+                        <input type="text" class="form-control" id="inputName" name="animalName" required="true"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputDoctor" class="col-xs-3 col-sm-3 control-label">Animal Type</label>
+                    <div class="col-xs-6 col-sm-6">
+                        <input type="text" class="form-control" id="inputType" name="animalType" required="true"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="input" class="col-xs-3 col-sm-3 control-label">Animal Gender</label>
+                    <div class="col-xs-6 col-sm-6">
+                        <input type="text" class="form-control" id="inputGender" name="animalGender" required="true"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputColor" class="col-xs-3 col-sm-3 control-label">Animal Colour</label>
+                    <div class="col-xs-6 col-sm-6">
+                        <input type="text" class="form-control" id="inputColor" name="animalColor" required="true"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputLocation" class="col-xs-3 col-sm-3 control-label">Location</label>
+                    <div class="col-xs-6 col-sm-6">
+                        <input type="text" class="form-control" id="inputLocation" name="animalLocation"
+                               required="true"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputIntroduction" class="col-xs-3 col-sm-3 control-label">Introduction</label>
+                    <div class="col-xs-6 col-sm-6">
+                        <input type="text" class="form-control" id="inputIntroduction" rows="3"
+                               name="animalIntroduction" required="true"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputImage" class="col-xs-3 col-sm-3 control-label">Image Upload</label>
+                    <div class="col-xs-6 col-sm-6">
+                        <input type="file" id="inputImage" name="animalImage" class="form-control" accept="image/*"
+                               required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-3 col-xs-offset-8 col-sm-4 col-sm-offset-8">
+                        <button class="btn btn-success" type="submit">Add</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="javascripts/add_animal_view.js"></script>
+<% include footer.ejs %>
